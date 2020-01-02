@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/w3.css">
+<style>
+body {
+background-image:url('travel.jpg');
+font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 200%;
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+  img {
+  border-radius: 80%;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+</style>
+<body>
+
+<h1><center><marquee direction="left"><font color="white">WELCOME TO TRAVELER'S HUB</center></marquee></h1>
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="aboutus.html"><i class="fa fa-fw fa-search"></i> About Us</a> 
+  <a href="conus.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a> 
+    <a href="#"><i class="fa fa-fw fa-plane"></i> Tour</a> 
+  <a href="index.html"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+<section>
+  <center><a href="#"><img class="mySlides" src="a.jpg"
+  style="width:20%"><h2>EUROPE</h2></a>
+  <a href="#"><img class="mySlides" src="b.jpg"
+  style="width:20%"><h2>AMERICA</h2></a>
+  <a href="#"><img class="mySlides" src="d.jpg"
+  style="width:20%"><h2>ASIA</h2></a></center>
+</section>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<footer size="100">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+
+</body>
+</html> 
